@@ -6,4 +6,11 @@ public class Illness {
     public Illness(String title) {
         this.title = title;
     }
+
+    @Override
+    public String toString() {
+        return "Illness{" +
+                "title='" + title + '\'' +
+                '}';
+    }
 }
