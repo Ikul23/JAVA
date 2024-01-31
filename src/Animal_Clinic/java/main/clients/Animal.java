@@ -2,7 +2,7 @@ package main.clients;
 
 import java.time.LocalDate;
 
-public class Animal {
+public abstract class Animal {
 
     // protected видно в классе и во всех наследниках
     protected String nickName;
@@ -58,16 +58,17 @@ public class Animal {
     }
 
     public String getType() {
-        return getClass().getSimpleName();
+
+       return getClass().getSimpleName();
     }
 
     private void hunt() {
         System.out.println("Животное охотится!");
     }
 
-    private void eat() {
-        System.out.println("Животное ест!");
-    }
+
+
+    public abstract void eat();
 
     private void sleep() {
         System.out.println("Животное уснуло!");
