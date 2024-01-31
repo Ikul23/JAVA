@@ -5,4 +5,5 @@
 Для удобства навигации по папкам проекта:
 
 (Д/З 1): https://github.com/Ikul23/JAVA/tree/main/src/Animal_Clinic/java/main/clients
+
 (Д/З 2): https://github.com/Ikul23/JAVA/tree/main/src/Animal_Clinic/java/main/staff
