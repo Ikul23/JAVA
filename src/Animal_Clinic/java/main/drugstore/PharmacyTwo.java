@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 
 public class PharmacyTwo implements Iterable<Component> {
-    private List<Component> components = new ArrayList<>();
+    private final List<Component> components = new ArrayList<>();
     private int index = 0;
 
     public void addComponents(Component ... components) {

@@ -30,4 +30,7 @@ public abstract class Component implements Comparable<Component> {
 //    else return 0;
 
     }
+
+    public String getTitle() {
+    }
 }
