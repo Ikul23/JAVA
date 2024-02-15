@@ -7,3 +7,6 @@
 (Д/З 1): https://github.com/Ikul23/JAVA/tree/main/src/Animal_Clinic/java/main/clients
 
 (Д/З 2): https://github.com/Ikul23/JAVA/tree/main/src/Animal_Clinic/java/main/staff
+
+(Д/З 3):
+В этом домашнем задании переписан класс Pharmacy, который реализует интерфейс Comparable<Pharmacy> и переопределяет метод compareTo(), чтобы сравнивать рецепты по количеству их компонентов.
